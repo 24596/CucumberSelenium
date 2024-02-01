@@ -33,6 +33,7 @@ public class OfferPageStepDefiniton {
 
     public void switchToOffersPage(){
         testContextSetup.genericUtils.switchWindow();
+        System.out.println("hello");
 
     }
 
